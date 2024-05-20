@@ -1,0 +1,1755 @@
+{
+  "Summary": [
+    {
+      "RAT Name": "GSM",
+      "Bands": [
+        "value = gsm850 (5)",
+        "value = gsm900E (7)",
+        "value = gsm1800 (9)",
+        "value = gsm1900 (10)"
+      ]
+    },
+    {
+      "RAT Name": "WCDMA",
+      "Bands": [
+        "value = bandI (0)",
+        "value = bandII (1)",
+        "value = bandIV (3)",
+        "value = bandV (4)",
+        "value = bandVIII (7)"
+      ]
+    },
+    {
+      "RAT Name": "LTE",
+      "Bands": [
+        "bandEUTRA = (5)",
+        "bandEUTRA = (4)",
+        "bandEUTRA = (2)",
+        "bandEUTRA = (7)",
+        "bandEUTRA = (3)",
+        "bandEUTRA = (28)",
+        "bandEUTRA = (1)",
+        "bandEUTRA = (12)",
+        "bandEUTRA = (13)",
+        "bandEUTRA = (14)",
+        "bandEUTRA = (20)",
+        "bandEUTRA = (25)",
+        "bandEUTRA = (26)",
+        "bandEUTRA = (29)",
+        "bandEUTRA = (30)",
+        "bandEUTRA = (38)",
+        "bandEUTRA = (39)",
+        "bandEUTRA = (40)",
+        "bandEUTRA = (41)",
+        "bandEUTRA = (48)",
+        "bandEUTRA_v9e0 = (66)",
+        "bandEUTRA_v9e0 = (71)",
+        "bandEUTRA_v9e0 = (66)",
+        "bandEUTRA_v9e0 = (71)"
+      ],
+      "PDCP Parameters and ROHC Profiles": [
+        "profile0x0001_r15 = true (1)",
+        "profile0x0002_r15 = true (1)",
+        "profile0x0003_r15 = false (0)",
+        "profile0x0004_r15 = false (0)",
+        "profile0x0006_r15 = false (0)",
+        "profile0x0101_r15 = false (0)",
+        "profile0x0102_r15 = false (0)",
+        "profile0x0103_r15 = false (0)",
+        "profile0x0104_r15 = false (0)",
+        "maxNumberROHC_ContextSessions = cs24 (5)",
+        "pdcp_SN_Extension_r11 = supported (0)",
+        "pdcp_SN_Extension_18bits_r13 = supported (0)"
+      ],
+      "PHY Layer Parameters": [
+        "ue_TxAntennaSelectionSupported = false (0)",
+        "ue_SpecificRefSigsSupported = false (0)",
+        "enhancedDualLayerTDD_r9 = supported (0)",
+        "tm9_With_8Tx_FDD_r10 = supported (0)",
+        "multiClusterPUSCH_WithinCC_r10 = supported (0)",
+        "nonContiguousUL_RA_WithinCC_List_r10 = (22)",
+        "nonContiguousUL_RA_WithinCC_Info_r10 = supported (0)",
+        "nonContiguousUL_RA_WithinCC_Info_r10 = supported (0)",
+        "nonContiguousUL_RA_WithinCC_Info_r10 = supported (0)",
+        "nonContiguousUL_RA_WithinCC_Info_r10 = supported (0)",
+        "tdd_SpecialSubframe_r11 = supported (0)",
+        "discoverySignalsInDeactSCell_r12 = supported (0)",
+        "codebook_HARQ_ACK_r13 = (01)"
+      ],
+      "Additional Information": [
+        "accessStratumRelease = rel15 (7)",
+        "ue_Category = (4)",
+        "ue_Category_v1020 = (7)",
+        "ue_Category_v1170 = (10)",
+        "ue_Category_v11a0 = (12)",
+        "ue_CategoryDL_r12 = (12)",
+        "ue_CategoryUL_r12 = (13)",
+        "ue_CategoryDL_v1260 = (16)",
+        "ue_CategoryDL_v1330 = (19)",
+        "freqBandRetrieval_r11 = supported (0)",
+        "freqBandPriorityAdjustment_r12 = supported (0)",
+        "incMonEUTRA_r12 = supported (0)",
+        "extendedMaxMeasId_r12 = supported (0)",
+        "otdoa_UE_Assisted_r10 = supported (0)",
+        "loggedMeasurementsIdle_r10 = supported (0)",
+        "en_DC_r15 = supported (0)"
+      ],
+      "Feature Groups": [
+        "FGI =   1: (0) Frequency Hopping by UL grant, DCI 3a, PUSCH: Mode 2-0; Mode 2-2 (2147483649)",
+        "FGI =   2: (1) Simultaneous CQI, ACK/NACK, Abs. PUSCH TPC, RA T1, PUCCH: Mode 2-0; Mode 2-1 (1073741824)",
+        "FGI =   3: (1) 5-bit RLC UM SN, 7-bit PDCP SN (536870912)",
+        "FGI =   4: (1) Short DRX cycle (268435456)",
+        "FGI =   5: (1) Long DRX cycle, DRX Command (134217728)",
+        "FGI =   6: (1) Prioritised bit rate (67108864)",
+        "FGI =   7: (1) RLC UM (33554432)",
+        "FGI =   8: (1) EUTRA RRC_CONNECTED to UTRA FDD or UTRA TDD CELL_DCH_PS (16777216)",
+        "FGI =   9: (1) EUTRA RRC_CONNECTED to GERAN GSM_Dedicated handover (8388608)",
+        "FGI =  10: (1) EUTRA RRC_CONNECTED to GERAN (Packet_) Idle by Cell Change Order (4194304)",
+        "FGI =  11: (0) EUTRA RRC_CONNECTED to CDMA2000 1xRTT CS Active handover (2097153)",
+        "FGI =  12: (0) EUTRA RRC_CONNECTED to CDMA2000 HRPD Active handover (1048577)",
+        "FGI =  13: (1) Inter-frequency handover (within FDD or TDD) (524288)",
+        "FGI =  14: (1) Measurement reporting events A4, A5 (262144)",
+        "FGI =  15: (1) Measurement reporting event B1 (131072)",
+        "FGI =  16: (1) Periodical Measurement reporting for intra, inter frequency and inter-RAT (65536)",
+        "FGI =  17: (1) Intra-Frequency ANR reporting (32768)",
+        "FGI =  18: (1) Inter-Frequency ANR reporting (16384)",
+        "FGI =  19: (1) Inter-RAT ANR reporting (8192)",
+        "FGI =  20: (1) SRB1 and SRB2 for DCCH + 8x AM DRB (or 5xAM DRB + 3x UM DRB) (4096)",
+        "FGI =  21: (1) Predefined intra- and inter-subframe frequency hopping for PUSCH (2048)",
+        "FGI =  22: (1) UTRAN measurements, and event B2 in E-UTRA connected mode (1024)",
+        "FGI =  23: (1) GERAN measurements, and event B2 in E-UTRA connected mode (512)",
+        "FGI =  24: (0) 1xRTT measurements, and event B2 in E-UTRA connected mode (257)",
+        "FGI =  25: (1) Inter-frequency measurements, and reporting in E-UTRA connected mode (128)",
+        "FGI =  26: (0) HRPD measurements, and event B2 in E-UTRA connected mode (65)",
+        "FGI =  27: (1) EUTRA RRC_CONNECTED to UTRA FDD or UTRA TDD CELL_DCH_CS (32)",
+        "FGI =  28: (1) TTI Bundling (16)",
+        "FGI =  29: (1) Semi-persistent scheduling (8)",
+        "FGI =  30: (1) Handover between FDD and TDD (4)",
+        "FGI =  31: (1) Support for cells broadcasting multiBandInfoList (2)",
+        "FGI =  32: (0) Undefined (15)",
+        "FGI =  33: (1) Inter-RAT ANR for UTRAN FDD (2147483648)",
+        "FGI =  34: (1) Inter-RAT ANR for GERAN (1073741824)",
+        "FGI =  35: (0) Inter-RAT ANR for 1xRTT (536870913)",
+        "FGI =  36: (0) Inter-RAT ANR for HRPD (268435457)",
+        "FGI =  37: (0) Inter-RAT ANR for UTRAN TDD (134217729)",
+        "FGI =  38: (0) EUTRA RRC_CONNECTED to UTRA TDD CELL_DCH_PS handover (67108865)",
+        "FGI =  39: (0) UTRAN TDD measurements, Event B2 (33554433)",
+        "FGI =  40: (0) EUTRA RRC_CONNECTED to UTRA TDD CELL_DCH_CS handover (16777217)",
+        "FGI =  41: (0) Measurement reporting Event B1 (8388609)",
+        "FGI =  42: (0) DCI format 3a (4194305)",
+        "FGI =  43: (0) Undefined (2097153)",
+        "FGI =  44: (0) Undefined (1048577)",
+        "FGI =  45: (0) Undefined (524289)",
+        "FGI =  46: (0) Undefined (262145)",
+        "FGI =  47: (0) Undefined (131073)",
+        "FGI =  48: (0) Undefined (65537)",
+        "FGI =  49: (0) Undefined (32769)",
+        "FGI =  50: (0) Undefined (16385)",
+        "FGI =  51: (0) Undefined (8193)",
+        "FGI =  52: (0) Undefined (4097)",
+        "FGI =  53: (0) Undefined (2049)",
+        "FGI =  54: (0) Undefined (1025)",
+        "FGI =  55: (0) Undefined (513)",
+        "FGI =  56: (0) Undefined (257)",
+        "FGI =  57: (0) Undefined (129)",
+        "FGI =  58: (0) Undefined (65)",
+        "FGI =  59: (0) Undefined (33)",
+        "FGI =  60: (0) Undefined (17)",
+        "FGI =  61: (0) Undefined (9)",
+        "FGI =  62: (0) Undefined (5)",
+        "FGI =  63: (0) Undefined (3)",
+        "FGI =  64: (0) Undefined (15)",
+        "FGI = 101: (0) DMRS with OCC and SGH disabling (2147483649)",
+        "FGI = 102: (1) Trigger type 1 SRS (aperiodic SRS) transmission (Up to X ports) (1073741824)",
+        "FGI = 103: (1) Transmission Mode 9 with 4 CSI-RS (536870912)",
+        "FGI = 104: (1) Transmission Mode 9 with 8 CSI-RS (268435456)",
+        "FGI = 105: (1) Periodic Reporting Mode 2-0 and 2-1 for 4 CSI-RS (134217728)",
+        "FGI = 106: (1) Periodic Reporting Mode 2-1 for 8 CSI-RS (67108864)",
+        "FGI = 107: (0) Periodic Reporting Mode 2-0 and 2-2 for 4 CSI-RS (33554433)",
+        "FGI = 108: (0) Periodic Reporting Mode 2-2 for 8 CSI-RS (16777217)",
+        "FGI = 109: (1) Periodic Reporting Mode 1-1, submode 1 (8388608)",
+        "FGI = 110: (1) Periodic Reporting Mode 1-1, submode 2 (4194304)",
+        "FGI = 111: (1) Measurement reporting trigger event A6 (2097152)",
+        "FGI = 112: (0) SCell addition within the Handover to EUTRA procedure (1048577)",
+        "FGI = 113: (0) Trigger type 2 SRS (periodic SRS) transmission on X Serving Cells (524289)",
+        "FGI = 114: (1) Reporting of both UTRA CPICH RSCP and Ec/N0 in a Measurement Report (262144)",
+        "FGI = 115: (0) Time domain ICIC for RLM/RRM, RRM and CSI measurement subframe restrictions (131073)",
+        "FGI = 116: (0) Relative transmit phase continuity for spatial multiplexing in UL (65537)",
+        "FGI = 117: (0) Undefined (32769)",
+        "FGI = 118: (0) Undefined (16385)",
+        "FGI = 119: (0) Undefined (8193)",
+        "FGI = 120: (0) Undefined (4097)",
+        "FGI = 121: (0) Undefined (2049)",
+        "FGI = 122: (0) Undefined (1025)",
+        "FGI = 123: (0) Undefined (513)",
+        "FGI = 124: (0) Undefined (257)",
+        "FGI = 125: (0) Undefined (129)",
+        "FGI = 126: (0) Undefined (65)",
+        "FGI = 127: (0) Undefined (33)",
+        "FGI = 128: (0) Undefined (17)",
+        "FGI = 129: (0) Undefined (9)",
+        "FGI = 130: (0) Undefined (5)",
+        "FGI = 131: (0) Undefined (3)",
+        "FGI = 132: (0) Undefined (15)"
+      ],
+      "Feature Groups FDD": [
+        "FGI = 101: (0) DMRS with OCC and SGH disabling (2147483649)",
+        "FGI = 102: (1) Trigger type 1 SRS (aperiodic SRS) transmission (Up to X ports) (1073741824)",
+        "FGI = 103: (1) Transmission Mode 9 with 4 CSI-RS (536870912)",
+        "FGI = 104: (1) Transmission Mode 9 with 8 CSI-RS (268435456)",
+        "FGI = 105: (1) Periodic Reporting Mode 2-0 and 2-1 for 4 CSI-RS (134217728)",
+        "FGI = 106: (1) Periodic Reporting Mode 2-1 for 8 CSI-RS (67108864)",
+        "FGI = 107: (0) Periodic Reporting Mode 2-0 and 2-2 for 4 CSI-RS (33554433)",
+        "FGI = 108: (0) Periodic Reporting Mode 2-2 for 8 CSI-RS (16777217)",
+        "FGI = 109: (1) Periodic Reporting Mode 1-1, submode 1 (8388608)",
+        "FGI = 110: (1) Periodic Reporting Mode 1-1, submode 2 (4194304)",
+        "FGI = 111: (1) Measurement reporting trigger event A6 (2097152)",
+        "FGI = 112: (0) SCell addition within the Handover to EUTRA procedure (1048577)",
+        "FGI = 113: (0) Trigger type 2 SRS (periodic SRS) transmission on X Serving Cells (524289)",
+        "FGI = 114: (1) Reporting of both UTRA CPICH RSCP and Ec/N0 in a Measurement Report (262144)",
+        "FGI = 115: (0) Time domain ICIC for RLM/RRM, RRM and CSI measurement subframe restrictions (131073)",
+        "FGI = 116: (0) Relative transmit phase continuity for spatial multiplexing in UL (65537)",
+        "FGI = 117: (0) Undefined (32769)",
+        "FGI = 118: (0) Undefined (16385)",
+        "FGI = 119: (0) Undefined (8193)",
+        "FGI = 120: (0) Undefined (4097)",
+        "FGI = 121: (0) Undefined (2049)",
+        "FGI = 122: (0) Undefined (1025)",
+        "FGI = 123: (0) Undefined (513)",
+        "FGI = 124: (0) Undefined (257)",
+        "FGI = 125: (0) Undefined (129)",
+        "FGI = 126: (0) Undefined (65)",
+        "FGI = 127: (0) Undefined (33)",
+        "FGI = 128: (0) Undefined (17)",
+        "FGI = 129: (0) Undefined (9)",
+        "FGI = 130: (0) Undefined (5)",
+        "FGI = 131: (0) Undefined (3)",
+        "FGI = 132: (0) Undefined (15)"
+      ],
+      "Feature Groups TDD": [
+        "FGI = 101: (0) DMRS with OCC and SGH disabling (2147483649)",
+        "FGI = 102: (1) Trigger type 1 SRS (aperiodic SRS) transmission (Up to X ports) (1073741824)",
+        "FGI = 103: (1) Transmission Mode 9 with 4 CSI-RS (536870912)",
+        "FGI = 104: (1) Transmission Mode 9 with 8 CSI-RS (268435456)",
+        "FGI = 105: (1) Periodic Reporting Mode 2-0 and 2-1 for 4 CSI-RS (134217728)",
+        "FGI = 106: (1) Periodic Reporting Mode 2-1 for 8 CSI-RS (67108864)",
+        "FGI = 107: (0) Periodic Reporting Mode 2-0 and 2-2 for 4 CSI-RS (33554433)",
+        "FGI = 108: (0) Periodic Reporting Mode 2-2 for 8 CSI-RS (16777217)",
+        "FGI = 109: (1) Periodic Reporting Mode 1-1, submode 1 (8388608)",
+        "FGI = 110: (1) Periodic Reporting Mode 1-1, submode 2 (4194304)",
+        "FGI = 111: (1) Measurement reporting trigger event A6 (2097152)",
+        "FGI = 112: (0) SCell addition within the Handover to EUTRA procedure (1048577)",
+        "FGI = 113: (1) Trigger type 2 SRS (periodic SRS) transmission on X Serving Cells (524288)",
+        "FGI = 114: (1) Reporting of both UTRA CPICH RSCP and Ec/N0 in a Measurement Report (262144)",
+        "FGI = 115: (0) Time domain ICIC for RLM/RRM, RRM and CSI measurement subframe restrictions (131073)",
+        "FGI = 116: (0) Relative transmit phase continuity for spatial multiplexing in UL (65537)",
+        "FGI = 117: (0) Undefined (32769)",
+        "FGI = 118: (0) Undefined (16385)",
+        "FGI = 119: (0) Undefined (8193)",
+        "FGI = 120: (0) Undefined (4097)",
+        "FGI = 121: (0) Undefined (2049)",
+        "FGI = 122: (0) Undefined (1025)",
+        "FGI = 123: (0) Undefined (513)",
+        "FGI = 124: (0) Undefined (257)",
+        "FGI = 125: (0) Undefined (129)",
+        "FGI = 126: (0) Undefined (65)",
+        "FGI = 127: (0) Undefined (33)",
+        "FGI = 128: (0) Undefined (17)",
+        "FGI = 129: (0) Undefined (9)",
+        "FGI = 130: (0) Undefined (5)",
+        "FGI = 131: (0) Undefined (3)",
+        "FGI = 132: (0) Undefined (15)"
+      ]
+    },
+    {
+      "RAT Name": "5G NR",
+      "Bands": [
+        "bandNR = (66)",
+        "bandNR = (5)",
+        "bandNR = (2)",
+        "bandNR = (261)"
+      ],
+      "PDCP Parameters and ROHC Profiles": [
+        "profile0x0000 = false (0)",
+        "profile0x0001 = false (0)",
+        "profile0x0002 = false (0)",
+        "profile0x0003 = false (0)",
+        "profile0x0004 = false (0)",
+        "profile0x0006 = false (0)",
+        "profile0x0101 = false (0)",
+        "profile0x0102 = false (0)",
+        "profile0x0103 = false (0)",
+        "profile0x0104 = false (0)",
+        "maxNumberROHC_ContextSessions = cs24 (5)",
+        "continueROHC_Context = supported (0)",
+        "shortSN = supported (0)"
+      ],
+      "RLC Parameters": [
+        "am_WithShortSN = supported (0)",
+        "um_WithShortSN = supported (0)",
+        "um_WithLongSN = supported (0)"
+      ],
+      "MAC Parameters": [
+        "logicalChannelSR_DelayTimer = supported (0)",
+        "longDRX_Cycle = supported (0)",
+        "shortDRX_Cycle = supported (0)",
+        "multipleSR_Configurations = supported (0)"
+      ],
+      "PHY Parameters": [
+        "dynamicHARQ_ACK_Codebook = supported (0)",
+        "semiStaticHARQ_ACK_Codebook = supported (0)",
+        "ra_Type0_PUSCH = supported (0)",
+        "dynamicSwitchRA_Type0_1_PUSCH = supported (0)",
+        "pdsch_MappingTypeA = supported (0)",
+        "rateMatchingResrcSetSemi_Static = supported (0)",
+        "rateMatchingResrcSetDynamic = supported (0)",
+        "rateMatchingCtrlResrcSetDynamic = supported (0)",
+        "maxLayersMIMO_Indication = supported (0)",
+        "dl_SchedulingOffset_PDSCH_TypeA = supported (0)",
+        "twoFL_DMRS = (11)",
+        "supportedDMRS_TypeUL = type1And2 (1)",
+        "pucch_F2_WithFH = supported (0)",
+        "pucch_F3_WithFH = supported (0)",
+        "absoluteTPC_Command = supported (0)",
+        "pusch_HalfPi_BPSK = supported (0)",
+        "pucch_F3_4_HalfPi_BPSK = supported (0)",
+        "sameSymbol = supported (0)",
+        "dl_SchedulingOffset_PDSCH_TypeA = supported (0)",
+        "oneFL_DMRS_TwoAdditionalDMRS_UL = supported (0)",
+        "twoFL_DMRS_TwoAdditionalDMRS_UL = supported (0)",
+        "pdsch_256QAM_FR1 = supported (0)",
+        "pdsch_RE_MappingFR1_PerSymbol = n10 (0)",
+        "pdsch_RE_MappingFR1_PerSlot = n32 (1)",
+        "pdsch_RE_MappingFR2_PerSymbol = n6 (0)",
+        "pdsch_RE_MappingFR2_PerSlot = n64 (3)"
+      ],
+      "Measurement and Mobility Parameters": [
+        "ssb_RLM = supported (0)",
+        "eutra_CGI_Reporting = supported (0)",
+        "nr_CGI_Reporting = supported (0)",
+        "nr_CGI_Reporting_ENDC = supported (0)",
+        "intraAndInterF_MeasAndReport = supported (0)",
+        "eventA_MeasAndReport = supported (0)",
+        "ss_SINR_Meas = supported (0)",
+        "simultaneousRxDataSSB_DiffNumerology = supported (0)"
+      ],
+      "Additional Parameters": [
+        "accessStratumRelease = rel15 (0)"
+      ],
+      "Feature Sets Downlink Per CC": [
+        "supportedSubcarrierSpacingDL = kHz15 (0)",
+        "supportedBandwidthDL = fr1 (0)",
+        "fr1 = mhz20 (3)",
+        "maxNumberMIMO_LayersPDSCH = fourLayers (1)",
+        "supportedModulationOrderDL = qam256 (5)"
+      ],
+      "Feature Sets Uplink Per CC": [
+        "supportedSubcarrierSpacingUL = kHz15 (0)",
+        "supportedBandwidthUL = fr1 (0)",
+        "fr1 = mhz20 (3)",
+        "maxNumberMIMO_LayersCB_PUSCH = oneLayer (0)",
+        "maxNumberSRS_ResourcePerSet = (1)",
+        "supportedModulationOrderUL = qam256 (5)"
+      ]
+    }
+  ],
+  "LTE CA": [
+    {
+      "No.": 1,
+      "DL_CA": "5A",
+      "# DL_CC": 1,
+      "UL_CA": "5A",
+      "# UL_CC": 1,
+      "Combination Sets": [],
+      "MIMO Capabilities DL": [
+        "Band 5 = twoLayers"
+      ],
+      "MIMO Capabilities UL": []
+    },
+    {
+      "No.": 2,
+      "DL_CA": "4A",
+      "# DL_CC": 1,
+      "UL_CA": "4A",
+      "# UL_CC": 1,
+      "Combination Sets": [],
+      "MIMO Capabilities DL": [
+        "Band 4 = fourLayers",
+        "Band 4 = fourLayerTM3_TM4_r10"
+      ],
+      "MIMO Capabilities UL": []
+    },
+    {
+      "No.": 3,
+      "DL_CA": "2A",
+      "# DL_CC": 1,
+      "UL_CA": "2A",
+      "# UL_CC": 1,
+      "Combination Sets": [],
+      "MIMO Capabilities DL": [
+        "Band 2 = fourLayers",
+        "Band 2 = fourLayerTM3_TM4_r10"
+      ],
+      "MIMO Capabilities UL": []
+    },
+    {
+      "No.": 4,
+      "DL_CA": "7A",
+      "# DL_CC": 1,
+      "UL_CA": "7A",
+      "# UL_CC": 1,
+      "Combination Sets": [],
+      "MIMO Capabilities DL": [
+        "Band 7 = fourLayers",
+        "Band 7 = fourLayerTM3_TM4_r10"
+      ],
+      "MIMO Capabilities UL": []
+    },
+    {
+      "No.": 5,
+      "DL_CA": "3A",
+      "# DL_CC": 1,
+      "UL_CA": "3A",
+      "# UL_CC": 1,
+      "Combination Sets": [],
+      "MIMO Capabilities DL": [
+        "Band 3 = twoLayers"
+      ],
+      "MIMO Capabilities UL": []
+    },
+    {
+      "No.": 6,
+      "DL_CA": "28A",
+      "# DL_CC": 1,
+      "UL_CA": "28A",
+      "# UL_CC": 1,
+      "Combination Sets": [],
+      "MIMO Capabilities DL": [
+        "Band 28 = twoLayers"
+      ],
+      "MIMO Capabilities UL": []
+    },
+    {
+      "No.": 7,
+      "DL_CA": "1A",
+      "# DL_CC": 1,
+      "UL_CA": "1A",
+      "# UL_CC": 1,
+      "Combination Sets": [],
+      "MIMO Capabilities DL": [
+        "Band 1 = twoLayers"
+      ],
+      "MIMO Capabilities UL": []
+    },
+    {
+      "No.": 8,
+      "DL_CA": "12A",
+      "# DL_CC": 1,
+      "UL_CA": "12A",
+      "# UL_CC": 1,
+      "Combination Sets": [],
+      "MIMO Capabilities DL": [
+        "Band 12 = twoLayers"
+      ],
+      "MIMO Capabilities UL": []
+    },
+    {
+      "No.": 9,
+      "DL_CA": "13A",
+      "# DL_CC": 1,
+      "UL_CA": "13A",
+      "# UL_CC": 1,
+      "Combination Sets": [],
+      "MIMO Capabilities DL": [
+        "Band 13 = twoLayers"
+      ],
+      "MIMO Capabilities UL": []
+    },
+    {
+      "No.": 10,
+      "DL_CA": "14A",
+      "# DL_CC": 1,
+      "UL_CA": "14A",
+      "# UL_CC": 1,
+      "Combination Sets": [],
+      "MIMO Capabilities DL": [
+        "Band 14 = twoLayers"
+      ],
+      "MIMO Capabilities UL": []
+    },
+    {
+      "No.": 11,
+      "DL_CA": "20A",
+      "# DL_CC": 1,
+      "UL_CA": "20A",
+      "# UL_CC": 1,
+      "Combination Sets": [],
+      "MIMO Capabilities DL": [
+        "Band 20 = twoLayers"
+      ],
+      "MIMO Capabilities UL": []
+    },
+    {
+      "No.": 12,
+      "DL_CA": "25A",
+      "# DL_CC": 1,
+      "UL_CA": "25A",
+      "# UL_CC": 1,
+      "Combination Sets": [],
+      "MIMO Capabilities DL": [
+        "Band 25 = fourLayers",
+        "Band 25 = fourLayerTM3_TM4_r10"
+      ],
+      "MIMO Capabilities UL": []
+    },
+    {
+      "No.": 13,
+      "DL_CA": "26A",
+      "# DL_CC": 1,
+      "UL_CA": "26A",
+      "# UL_CC": 1,
+      "Combination Sets": [],
+      "MIMO Capabilities DL": [
+        "Band 26 = twoLayers"
+      ],
+      "MIMO Capabilities UL": []
+    },
+    {
+      "No.": 14,
+      "DL_CA": "29A",
+      "# DL_CC": 1,
+      "UL_CA": "",
+      "# UL_CC": 0,
+      "Combination Sets": [],
+      "MIMO Capabilities DL": [
+        "Band 29 = twoLayers"
+      ],
+      "MIMO Capabilities UL": []
+    },
+    {
+      "No.": 15,
+      "DL_CA": "30A",
+      "# DL_CC": 1,
+      "UL_CA": "30A",
+      "# UL_CC": 1,
+      "Combination Sets": [],
+      "MIMO Capabilities DL": [
+        "Band 30 = fourLayers",
+        "Band 30 = fourLayerTM3_TM4_r10"
+      ],
+      "MIMO Capabilities UL": []
+    },
+    {
+      "No.": 16,
+      "DL_CA": "38A",
+      "# DL_CC": 1,
+      "UL_CA": "38A",
+      "# UL_CC": 1,
+      "Combination Sets": [],
+      "MIMO Capabilities DL": [
+        "Band 38 = fourLayers",
+        "Band 38 = fourLayerTM3_TM4_r10"
+      ],
+      "MIMO Capabilities UL": []
+    },
+    {
+      "No.": 17,
+      "DL_CA": "39A",
+      "# DL_CC": 1,
+      "UL_CA": "39A",
+      "# UL_CC": 1,
+      "Combination Sets": [],
+      "MIMO Capabilities DL": [
+        "Band 39 = twoLayers"
+      ],
+      "MIMO Capabilities UL": []
+    },
+    {
+      "No.": 18,
+      "DL_CA": "40A",
+      "# DL_CC": 1,
+      "UL_CA": "40A",
+      "# UL_CC": 1,
+      "Combination Sets": [],
+      "MIMO Capabilities DL": [
+        "Band 40 = twoLayers"
+      ],
+      "MIMO Capabilities UL": []
+    },
+    {
+      "No.": 19,
+      "DL_CA": "41A",
+      "# DL_CC": 1,
+      "UL_CA": "41A",
+      "# UL_CC": 1,
+      "Combination Sets": [],
+      "MIMO Capabilities DL": [
+        "Band 41 = fourLayers",
+        "Band 41 = fourLayerTM3_TM4_r10"
+      ],
+      "MIMO Capabilities UL": []
+    },
+    {
+      "No.": 20,
+      "DL_CA": "48A",
+      "# DL_CC": 1,
+      "UL_CA": "48A",
+      "# UL_CC": 1,
+      "Combination Sets": [],
+      "MIMO Capabilities DL": [
+        "Band 48 = fourLayers",
+        "Band 48 = fourLayerTM3_TM4_r10"
+      ],
+      "MIMO Capabilities UL": []
+    },
+    {
+      "No.": 21,
+      "DL_CA": "66A",
+      "# DL_CC": 1,
+      "UL_CA": "66A",
+      "# UL_CC": 1,
+      "Combination Sets": [],
+      "MIMO Capabilities DL": [
+        "Band 66 = fourLayers",
+        "Band 66 = fourLayerTM3_TM4_r10"
+      ],
+      "MIMO Capabilities UL": []
+    },
+    {
+      "No.": 22,
+      "DL_CA": "71A",
+      "# DL_CC": 1,
+      "UL_CA": "71A",
+      "# UL_CC": 1,
+      "Combination Sets": [],
+      "MIMO Capabilities DL": [
+        "Band 71 = twoLayers"
+      ],
+      "MIMO Capabilities UL": []
+    },
+    {
+      "No.": 23,
+      "DL_CA": "66A",
+      "# DL_CC": 1,
+      "UL_CA": "66A",
+      "# UL_CC": 1,
+      "Combination Sets": [],
+      "MIMO Capabilities DL": [
+        "Band 66 = fourLayerTM3_TM4_r13"
+      ],
+      "MIMO Capabilities UL": []
+    },
+    {
+      "No.": 24,
+      "DL_CA": "71A",
+      "# DL_CC": 1,
+      "UL_CA": "71A",
+      "# UL_CC": 1,
+      "Combination Sets": [],
+      "MIMO Capabilities DL": [
+        "Band 71 = twoLayers"
+      ],
+      "MIMO Capabilities UL": []
+    },
+    {
+      "No.": 25,
+      "DL_CA": "CA_41A-5A",
+      "# DL_CC": 2,
+      "UL_CA": "5A",
+      "# UL_CC": 1,
+      "Combination Sets": [],
+      "MIMO Capabilities DL": [
+        "Band 41 = fourLayerTM3_TM4_r13",
+        "Band 5 = twoLayers"
+      ],
+      "MIMO Capabilities UL": []
+    },
+    {
+      "No.": 26,
+      "DL_CA": "CA_41A-41A",
+      "# DL_CC": 2,
+      "UL_CA": "41A",
+      "# UL_CC": 1,
+      "Combination Sets": [],
+      "MIMO Capabilities DL": [
+        "Band 41 = fourLayerTM3_TM4_r13",
+        "Band 41 = fourLayerTM3_TM4_r13"
+      ],
+      "MIMO Capabilities UL": []
+    },
+    {
+      "No.": 27,
+      "DL_CA": "CA_66A-66A-12A-2A-2A",
+      "# DL_CC": 5,
+      "UL_CA": "66A",
+      "# UL_CC": 1,
+      "Combination Sets": [],
+      "MIMO Capabilities DL": [
+        "Band 66 = fourLayerTM3_TM4_r13",
+        "Band 66 = fourLayerTM3_TM4_r13",
+        "Band 12 = twoLayers",
+        "Band 2 = fourLayerTM3_TM4_r13",
+        "Band 2 = fourLayerTM3_TM4_r13"
+      ],
+      "MIMO Capabilities UL": []
+    },
+    {
+      "No.": 28,
+      "DL_CA": "CA_66A-66A-12A-2A-2A",
+      "# DL_CC": 5,
+      "UL_CA": "12A",
+      "# UL_CC": 1,
+      "Combination Sets": [],
+      "MIMO Capabilities DL": [
+        "Band 66 = fourLayerTM3_TM4_r13",
+        "Band 66 = fourLayerTM3_TM4_r13",
+        "Band 12 = twoLayers",
+        "Band 2 = fourLayerTM3_TM4_r13",
+        "Band 2 = fourLayerTM3_TM4_r13"
+      ],
+      "MIMO Capabilities UL": []
+    },
+    {
+      "No.": 29,
+      "DL_CA": "CA_66A-66A-12A-2A-2A",
+      "# DL_CC": 5,
+      "UL_CA": "2A",
+      "# UL_CC": 1,
+      "Combination Sets": [],
+      "MIMO Capabilities DL": [
+        "Band 66 = fourLayerTM3_TM4_r13",
+        "Band 66 = fourLayerTM3_TM4_r13",
+        "Band 12 = twoLayers",
+        "Band 2 = fourLayerTM3_TM4_r13",
+        "Band 2 = fourLayerTM3_TM4_r13"
+      ],
+      "MIMO Capabilities UL": []
+    },
+    {
+      "No.": 30,
+      "DL_CA": "CA_66A-66A-5A-2A-2A",
+      "# DL_CC": 5,
+      "UL_CA": "66A",
+      "# UL_CC": 1,
+      "Combination Sets": [],
+      "MIMO Capabilities DL": [
+        "Band 66 = fourLayerTM3_TM4_r13",
+        "Band 66 = fourLayerTM3_TM4_r13",
+        "Band 5 = twoLayers",
+        "Band 2 = fourLayerTM3_TM4_r13",
+        "Band 2 = fourLayerTM3_TM4_r13"
+      ],
+      "MIMO Capabilities UL": []
+    },
+    {
+      "No.": 31,
+      "DL_CA": "CA_66A-66A-5A-2A-2A",
+      "# DL_CC": 5,
+      "UL_CA": "5A",
+      "# UL_CC": 1,
+      "Combination Sets": [],
+      "MIMO Capabilities DL": [
+        "Band 66 = fourLayerTM3_TM4_r13",
+        "Band 66 = fourLayerTM3_TM4_r13",
+        "Band 5 = twoLayers",
+        "Band 2 = fourLayerTM3_TM4_r13",
+        "Band 2 = fourLayerTM3_TM4_r13"
+      ],
+      "MIMO Capabilities UL": []
+    },
+    {
+      "No.": 32,
+      "DL_CA": "CA_66A-66A-5A-2A-2A",
+      "# DL_CC": 5,
+      "UL_CA": "2A",
+      "# UL_CC": 1,
+      "Combination Sets": [],
+      "MIMO Capabilities DL": [
+        "Band 66 = fourLayerTM3_TM4_r13",
+        "Band 66 = fourLayerTM3_TM4_r13",
+        "Band 5 = twoLayers",
+        "Band 2 = fourLayerTM3_TM4_r13",
+        "Band 2 = fourLayerTM3_TM4_r13"
+      ],
+      "MIMO Capabilities UL": []
+    },
+    {
+      "No.": 33,
+      "DL_CA": "CA_4A-4A-2A-2A",
+      "# DL_CC": 4,
+      "UL_CA": "4A",
+      "# UL_CC": 1,
+      "Combination Sets": [],
+      "MIMO Capabilities DL": [
+        "Band 4 = fourLayerTM3_TM4_r13",
+        "Band 4 = fourLayerTM3_TM4_r13",
+        "Band 2 = fourLayerTM3_TM4_r13",
+        "Band 2 = fourLayerTM3_TM4_r13"
+      ],
+      "MIMO Capabilities UL": []
+    },
+    {
+      "No.": 34,
+      "DL_CA": "CA_4A-4A-2A-2A",
+      "# DL_CC": 4,
+      "UL_CA": "2A",
+      "# UL_CC": 1,
+      "Combination Sets": [],
+      "MIMO Capabilities DL": [
+        "Band 4 = fourLayerTM3_TM4_r13",
+        "Band 4 = fourLayerTM3_TM4_r13",
+        "Band 2 = fourLayerTM3_TM4_r13",
+        "Band 2 = fourLayerTM3_TM4_r13"
+      ],
+      "MIMO Capabilities UL": []
+    },
+    {
+      "No.": 35,
+      "DL_CA": "CA_12A-4A-4A-2A",
+      "# DL_CC": 4,
+      "UL_CA": "12A",
+      "# UL_CC": 1,
+      "Combination Sets": [],
+      "MIMO Capabilities DL": [
+        "Band 12 = twoLayers",
+        "Band 4 = fourLayerTM3_TM4_r13",
+        "Band 4 = fourLayerTM3_TM4_r13",
+        "Band 2 = fourLayerTM3_TM4_r13"
+      ],
+      "MIMO Capabilities UL": []
+    },
+    {
+      "No.": 36,
+      "DL_CA": "CA_12A-4A-4A-2A",
+      "# DL_CC": 4,
+      "UL_CA": "4A",
+      "# UL_CC": 1,
+      "Combination Sets": [],
+      "MIMO Capabilities DL": [
+        "Band 12 = twoLayers",
+        "Band 4 = fourLayerTM3_TM4_r13",
+        "Band 4 = fourLayerTM3_TM4_r13",
+        "Band 2 = fourLayerTM3_TM4_r13"
+      ],
+      "MIMO Capabilities UL": []
+    },
+    {
+      "No.": 37,
+      "DL_CA": "CA_12A-4A-4A-2A",
+      "# DL_CC": 4,
+      "UL_CA": "2A",
+      "# UL_CC": 1,
+      "Combination Sets": [],
+      "MIMO Capabilities DL": [
+        "Band 12 = twoLayers",
+        "Band 4 = fourLayerTM3_TM4_r13",
+        "Band 4 = fourLayerTM3_TM4_r13",
+        "Band 2 = fourLayerTM3_TM4_r13"
+      ],
+      "MIMO Capabilities UL": []
+    },
+    {
+      "No.": 38,
+      "DL_CA": "CA_12A-4A-2A-2A",
+      "# DL_CC": 4,
+      "UL_CA": "12A",
+      "# UL_CC": 1,
+      "Combination Sets": [],
+      "MIMO Capabilities DL": [
+        "Band 12 = twoLayers",
+        "Band 4 = fourLayerTM3_TM4_r13",
+        "Band 2 = fourLayerTM3_TM4_r13",
+        "Band 2 = fourLayerTM3_TM4_r13"
+      ],
+      "MIMO Capabilities UL": []
+    },
+    {
+      "No.": 39,
+      "DL_CA": "CA_12A-4A-2A-2A",
+      "# DL_CC": 4,
+      "UL_CA": "4A",
+      "# UL_CC": 1,
+      "Combination Sets": [],
+      "MIMO Capabilities DL": [
+        "Band 12 = twoLayers",
+        "Band 4 = fourLayerTM3_TM4_r13",
+        "Band 2 = fourLayerTM3_TM4_r13",
+        "Band 2 = fourLayerTM3_TM4_r13"
+      ],
+      "MIMO Capabilities UL": []
+    },
+    {
+      "No.": 40,
+      "DL_CA": "CA_12A-4A-2A-2A",
+      "# DL_CC": 4,
+      "UL_CA": "2A",
+      "# UL_CC": 1,
+      "Combination Sets": [],
+      "MIMO Capabilities DL": [
+        "Band 12 = twoLayers",
+        "Band 4 = fourLayerTM3_TM4_r13",
+        "Band 2 = fourLayerTM3_TM4_r13",
+        "Band 2 = fourLayerTM3_TM4_r13"
+      ],
+      "MIMO Capabilities UL": []
+    },
+    {
+      "No.": 41,
+      "DL_CA": "CA_5A-4A-2A-2A",
+      "# DL_CC": 4,
+      "UL_CA": "5A",
+      "# UL_CC": 1,
+      "Combination Sets": [],
+      "MIMO Capabilities DL": [
+        "Band 5 = twoLayers",
+        "Band 4 = fourLayerTM3_TM4_r13",
+        "Band 2 = fourLayerTM3_TM4_r13",
+        "Band 2 = fourLayerTM3_TM4_r13"
+      ],
+      "MIMO Capabilities UL": []
+    },
+    {
+      "No.": 42,
+      "DL_CA": "CA_5A-4A-2A-2A",
+      "# DL_CC": 4,
+      "UL_CA": "4A",
+      "# UL_CC": 1,
+      "Combination Sets": [],
+      "MIMO Capabilities DL": [
+        "Band 5 = twoLayers",
+        "Band 4 = fourLayerTM3_TM4_r13",
+        "Band 2 = fourLayerTM3_TM4_r13",
+        "Band 2 = fourLayerTM3_TM4_r13"
+      ],
+      "MIMO Capabilities UL": []
+    },
+    {
+      "No.": 43,
+      "DL_CA": "CA_5A-4A-2A-2A",
+      "# DL_CC": 4,
+      "UL_CA": "2A",
+      "# UL_CC": 1,
+      "Combination Sets": [],
+      "MIMO Capabilities DL": [
+        "Band 5 = twoLayers",
+        "Band 4 = fourLayerTM3_TM4_r13",
+        "Band 2 = fourLayerTM3_TM4_r13",
+        "Band 2 = fourLayerTM3_TM4_r13"
+      ],
+      "MIMO Capabilities UL": []
+    },
+    {
+      "No.": 44,
+      "DL_CA": "CA_48E-4A",
+      "# DL_CC": 5,
+      "UL_CA": "4A",
+      "# UL_CC": 1,
+      "Combination Sets": [],
+      "MIMO Capabilities DL": [
+        "Band 48 = fourLayerTM3_TM4_r13",
+        "Band 4 = fourLayerTM3_TM4_r13"
+      ],
+      "MIMO Capabilities UL": []
+    },
+    {
+      "No.": 45,
+      "DL_CA": "CA_66A-66A-48D-5A",
+      "# DL_CC": 6,
+      "UL_CA": "66A",
+      "# UL_CC": 1,
+      "Combination Sets": [],
+      "MIMO Capabilities DL": [
+        "Band 66 = fourLayerTM3_TM4_r13",
+        "Band 66 = fourLayerTM3_TM4_r13",
+        "Band 48 = twoLayers",
+        "Band 5 = twoLayers"
+      ],
+      "MIMO Capabilities UL": []
+    },
+    {
+      "No.": 46,
+      "DL_CA": "CA_66A-66A-48D-5A",
+      "# DL_CC": 6,
+      "UL_CA": "5A",
+      "# UL_CC": 1,
+      "Combination Sets": [],
+      "MIMO Capabilities DL": [
+        "Band 66 = fourLayerTM3_TM4_r13",
+        "Band 66 = fourLayerTM3_TM4_r13",
+        "Band 48 = twoLayers",
+        "Band 5 = twoLayers"
+      ],
+      "MIMO Capabilities UL": []
+    },
+    {
+      "No.": 47,
+      "DL_CA": "CA_48D-12A",
+      "# DL_CC": 4,
+      "UL_CA": "12A",
+      "# UL_CC": 1,
+      "Combination Sets": [],
+      "MIMO Capabilities DL": [
+        "Band 48 = fourLayerTM3_TM4_r13",
+        "Band 12 = twoLayers"
+      ],
+      "MIMO Capabilities UL": []
+    },
+    {
+      "No.": 48,
+      "DL_CA": "CA_66A-48D-48A",
+      "# DL_CC": 5,
+      "UL_CA": "66A",
+      "# UL_CC": 1,
+      "Combination Sets": [],
+      "MIMO Capabilities DL": [
+        "Band 66 = fourLayerTM3_TM4_r13",
+        "Band 48 = fourLayerTM3_TM4_r13",
+        "Band 48 = fourLayerTM3_TM4_r13"
+      ],
+      "MIMO Capabilities UL": []
+    },
+    {
+      "No.": 49,
+      "DL_CA": "CA_66A-48C-48C",
+      "# DL_CC": 5,
+      "UL_CA": "66A",
+      "# UL_CC": 1,
+      "Combination Sets": [],
+      "MIMO Capabilities DL": [
+        "Band 66 = fourLayerTM3_TM4_r13",
+        "Band 48 = fourLayerTM3_TM4_r13",
+        "Band 48 = fourLayerTM3_TM4_r13"
+      ],
+      "MIMO Capabilities UL": []
+    },
+    {
+      "No.": 50,
+      "DL_CA": "CA_66A-48E",
+      "# DL_CC": 5,
+      "UL_CA": "66A",
+      "# UL_CC": 1,
+      "Combination Sets": [],
+      "MIMO Capabilities DL": [
+        "Band 66 = fourLayerTM3_TM4_r13",
+        "Band 48 = fourLayerTM3_TM4_r13"
+      ],
+      "MIMO Capabilities UL": []
+    },
+    {
+      "No.": 51,
+      "DL_CA": "CA_48E-48A",
+      "# DL_CC": 5,
+      "UL_CA": "48A",
+      "# UL_CC": 1,
+      "Combination Sets": [],
+      "MIMO Capabilities DL": [
+        "Band 48 = fourLayerTM3_TM4_r13",
+        "Band 48 = fourLayerTM3_TM4_r13"
+      ],
+      "MIMO Capabilities UL": []
+    },
+    {
+      "No.": 52,
+      "DL_CA": "CA_48D-48C",
+      "# DL_CC": 5,
+      "UL_CA": "48A",
+      "# UL_CC": 1,
+      "Combination Sets": [],
+      "MIMO Capabilities DL": [
+        "Band 48 = fourLayerTM3_TM4_r13",
+        "Band 48 = fourLayerTM3_TM4_r13"
+      ],
+      "MIMO Capabilities UL": []
+    },
+    {
+      "No.": 53,
+      "DL_CA": "CA_66A-66A-48A-48A",
+      "# DL_CC": 4,
+      "UL_CA": "66A",
+      "# UL_CC": 1,
+      "Combination Sets": [],
+      "MIMO Capabilities DL": [
+        "Band 66 = fourLayerTM3_TM4_r13",
+        "Band 66 = fourLayerTM3_TM4_r13",
+        "Band 48 = fourLayerTM3_TM4_r13",
+        "Band 48 = fourLayerTM3_TM4_r13"
+      ],
+      "MIMO Capabilities UL": []
+    },
+    {
+      "No.": 54,
+      "DL_CA": "CA_48C",
+      "# DL_CC": 2,
+      "UL_CA": "CA_48C",
+      "# UL_CC": 2,
+      "Combination Sets": [],
+      "MIMO Capabilities DL": [
+        "Band 48 = fourLayerTM3_TM4_r13"
+      ],
+      "MIMO Capabilities UL": []
+    }
+  ],
+  "MR-DC": [
+    {
+      "MrdcBandCombination": {
+        "No.": 1,
+        "Downlink": "DC_5A_n66A",
+        "#DL_CC": 2,
+        "Uplink": "DC_5A_n66A",
+        "#UL_CC": 2,
+        "BW Combination Sets": []
+      },
+      "Carriers": {
+        "Downlink": [
+          {
+            "Configuration": "5A",
+            "Parameters": [
+              []
+            ]
+          },
+          {
+            "Configuration": "n66A",
+            "Parameters": [
+              [
+                [
+                  "kHz15",
+                  "fr1 = MHz20",
+                  "fourLayers",
+                  "qam256"
+                ]
+              ]
+            ]
+          }
+        ],
+        "Uplink": [
+          {
+            "Configuration": "5A",
+            "Parameters": [
+              []
+            ]
+          },
+          {
+            "Configuration": "n66A",
+            "Parameters": [
+              [
+                [
+                  "kHz15",
+                  "fr1 = MHz20",
+                  "mimo_CB_PUSCH",
+                  "qam256"
+                ]
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "MrdcBandCombination": {
+        "No.": 2,
+        "Downlink": "DC_2A_66A_66A_n2A",
+        "#DL_CC": 4,
+        "Uplink": "DC_66A_n2A",
+        "#UL_CC": 2,
+        "BW Combination Sets": []
+      },
+      "Carriers": {
+        "Downlink": [
+          {
+            "Configuration": "2A",
+            "Parameters": [
+              []
+            ]
+          },
+          {
+            "Configuration": "66A",
+            "Parameters": [
+              []
+            ]
+          },
+          {
+            "Configuration": "66A",
+            "Parameters": [
+              []
+            ]
+          },
+          {
+            "Configuration": "n2A",
+            "Parameters": [
+              []
+            ]
+          }
+        ],
+        "Uplink": [
+          {
+            "Configuration": "66A",
+            "Parameters": [
+              []
+            ]
+          },
+          {
+            "Configuration": "n2A",
+            "Parameters": [
+              []
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "MrdcBandCombination": {
+        "No.": 3,
+        "Downlink": "DC_4A_n2A",
+        "#DL_CC": 2,
+        "Uplink": "DC_4A_n2A",
+        "#UL_CC": 2,
+        "BW Combination Sets": []
+      },
+      "Carriers": {
+        "Downlink": [
+          {
+            "Configuration": "4A",
+            "Parameters": [
+              []
+            ]
+          },
+          {
+            "Configuration": "n2A",
+            "Parameters": [
+              []
+            ]
+          }
+        ],
+        "Uplink": [
+          {
+            "Configuration": "4A",
+            "Parameters": [
+              []
+            ]
+          },
+          {
+            "Configuration": "n2A",
+            "Parameters": [
+              []
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "MrdcBandCombination": {
+        "No.": 4,
+        "Downlink": "DC_12A_n2A",
+        "#DL_CC": 2,
+        "Uplink": "DC_12A_n2A",
+        "#UL_CC": 2,
+        "BW Combination Sets": []
+      },
+      "Carriers": {
+        "Downlink": [
+          {
+            "Configuration": "12A",
+            "Parameters": [
+              []
+            ]
+          },
+          {
+            "Configuration": "n2A",
+            "Parameters": [
+              []
+            ]
+          }
+        ],
+        "Uplink": [
+          {
+            "Configuration": "12A",
+            "Parameters": [
+              []
+            ]
+          },
+          {
+            "Configuration": "n2A",
+            "Parameters": [
+              []
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "MrdcBandCombination": {
+        "No.": 5,
+        "Downlink": "DC_66A_66A_n2A",
+        "#DL_CC": 3,
+        "Uplink": "DC_66A_n2A",
+        "#UL_CC": 2,
+        "BW Combination Sets": []
+      },
+      "Carriers": {
+        "Downlink": [
+          {
+            "Configuration": "66A",
+            "Parameters": [
+              []
+            ]
+          },
+          {
+            "Configuration": "66A",
+            "Parameters": [
+              []
+            ]
+          },
+          {
+            "Configuration": "n2A",
+            "Parameters": [
+              []
+            ]
+          }
+        ],
+        "Uplink": [
+          {
+            "Configuration": "66A",
+            "Parameters": [
+              []
+            ]
+          },
+          {
+            "Configuration": "n2A",
+            "Parameters": [
+              []
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "MrdcBandCombination": {
+        "No.": 6,
+        "Downlink": "DC_2A_2A_66A_66A_n5A",
+        "#DL_CC": 5,
+        "Uplink": "DC_2A_n5A",
+        "#UL_CC": 2,
+        "BW Combination Sets": []
+      },
+      "Carriers": {
+        "Downlink": [
+          {
+            "Configuration": "2A",
+            "Parameters": [
+              []
+            ]
+          },
+          {
+            "Configuration": "2A",
+            "Parameters": [
+              []
+            ]
+          },
+          {
+            "Configuration": "66A",
+            "Parameters": [
+              []
+            ]
+          },
+          {
+            "Configuration": "66A",
+            "Parameters": [
+              []
+            ]
+          },
+          {
+            "Configuration": "n5A",
+            "Parameters": [
+              []
+            ]
+          }
+        ],
+        "Uplink": [
+          {
+            "Configuration": "2A",
+            "Parameters": [
+              []
+            ]
+          },
+          {
+            "Configuration": "n5A",
+            "Parameters": [
+              []
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "MrdcBandCombination": {
+        "No.": 7,
+        "Downlink": "DC_2A_2A_66A_66A_n5A",
+        "#DL_CC": 5,
+        "Uplink": "DC_66A_n5A",
+        "#UL_CC": 2,
+        "BW Combination Sets": []
+      },
+      "Carriers": {
+        "Downlink": [
+          {
+            "Configuration": "2A",
+            "Parameters": [
+              []
+            ]
+          },
+          {
+            "Configuration": "2A",
+            "Parameters": [
+              []
+            ]
+          },
+          {
+            "Configuration": "66A",
+            "Parameters": [
+              []
+            ]
+          },
+          {
+            "Configuration": "66A",
+            "Parameters": [
+              []
+            ]
+          },
+          {
+            "Configuration": "n5A",
+            "Parameters": [
+              []
+            ]
+          }
+        ],
+        "Uplink": [
+          {
+            "Configuration": "66A",
+            "Parameters": [
+              []
+            ]
+          },
+          {
+            "Configuration": "n5A",
+            "Parameters": [
+              []
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "MrdcBandCombination": {
+        "No.": 8,
+        "Downlink": "DC_2A_n66A",
+        "#DL_CC": 2,
+        "Uplink": "DC_2A_n66A",
+        "#UL_CC": 2,
+        "BW Combination Sets": []
+      },
+      "Carriers": {
+        "Downlink": [
+          {
+            "Configuration": "2A",
+            "Parameters": [
+              []
+            ]
+          },
+          {
+            "Configuration": "n66A",
+            "Parameters": [
+              []
+            ]
+          }
+        ],
+        "Uplink": [
+          {
+            "Configuration": "2A",
+            "Parameters": [
+              []
+            ]
+          },
+          {
+            "Configuration": "n66A",
+            "Parameters": [
+              []
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "MrdcBandCombination": {
+        "No.": 9,
+        "Downlink": "DC_12A_n66A",
+        "#DL_CC": 2,
+        "Uplink": "DC_12A_n66A",
+        "#UL_CC": 2,
+        "BW Combination Sets": []
+      },
+      "Carriers": {
+        "Downlink": [
+          {
+            "Configuration": "12A",
+            "Parameters": [
+              []
+            ]
+          },
+          {
+            "Configuration": "n66A",
+            "Parameters": [
+              []
+            ]
+          }
+        ],
+        "Uplink": [
+          {
+            "Configuration": "12A",
+            "Parameters": [
+              []
+            ]
+          },
+          {
+            "Configuration": "n66A",
+            "Parameters": [
+              []
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "MrdcBandCombination": {
+        "No.": 10,
+        "Downlink": "DC_48D_n66A",
+        "#DL_CC": 4,
+        "Uplink": "DC_48A_n66A",
+        "#UL_CC": 2,
+        "BW Combination Sets": []
+      },
+      "Carriers": {
+        "Downlink": [
+          {
+            "Configuration": "48D",
+            "Parameters": [
+              []
+            ]
+          },
+          {
+            "Configuration": "n66A",
+            "Parameters": [
+              []
+            ]
+          }
+        ],
+        "Uplink": [
+          {
+            "Configuration": "48A",
+            "Parameters": [
+              []
+            ]
+          },
+          {
+            "Configuration": "n66A",
+            "Parameters": [
+              []
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "MrdcBandCombination": {
+        "No.": 11,
+        "Downlink": "DC_4A_n261I",
+        "#DL_CC": 5,
+        "Uplink": "DC_4A_n261I",
+        "#UL_CC": 5,
+        "BW Combination Sets": [
+          0
+        ]
+      },
+      "Carriers": {
+        "Downlink": [
+          {
+            "Configuration": "4A",
+            "Parameters": [
+              []
+            ]
+          },
+          {
+            "Configuration": "n261I",
+            "Parameters": [
+              []
+            ]
+          }
+        ],
+        "Uplink": [
+          {
+            "Configuration": "4A",
+            "Parameters": [
+              []
+            ]
+          },
+          {
+            "Configuration": "n261I",
+            "Parameters": [
+              []
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "MrdcBandCombination": {
+        "No.": 12,
+        "Downlink": "DC_5A_66A_66A_n261I",
+        "#DL_CC": 7,
+        "Uplink": "DC_5A_n261I",
+        "#UL_CC": 5,
+        "BW Combination Sets": [
+          0
+        ]
+      },
+      "Carriers": {
+        "Downlink": [
+          {
+            "Configuration": "5A",
+            "Parameters": [
+              []
+            ]
+          },
+          {
+            "Configuration": "66A",
+            "Parameters": [
+              []
+            ]
+          },
+          {
+            "Configuration": "66A",
+            "Parameters": [
+              []
+            ]
+          },
+          {
+            "Configuration": "n261I",
+            "Parameters": [
+              []
+            ]
+          }
+        ],
+        "Uplink": [
+          {
+            "Configuration": "5A",
+            "Parameters": [
+              []
+            ]
+          },
+          {
+            "Configuration": "n261I",
+            "Parameters": [
+              []
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "MrdcBandCombination": {
+        "No.": 13,
+        "Downlink": "DC_5A_66A_66A_n261I",
+        "#DL_CC": 7,
+        "Uplink": "DC_66A_n261I",
+        "#UL_CC": 5,
+        "BW Combination Sets": [
+          0
+        ]
+      },
+      "Carriers": {
+        "Downlink": [
+          {
+            "Configuration": "5A",
+            "Parameters": [
+              []
+            ]
+          },
+          {
+            "Configuration": "66A",
+            "Parameters": [
+              []
+            ]
+          },
+          {
+            "Configuration": "66A",
+            "Parameters": [
+              []
+            ]
+          },
+          {
+            "Configuration": "n261I",
+            "Parameters": [
+              []
+            ]
+          }
+        ],
+        "Uplink": [
+          {
+            "Configuration": "66A",
+            "Parameters": [
+              []
+            ]
+          },
+          {
+            "Configuration": "n261I",
+            "Parameters": [
+              []
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "MrdcBandCombination": {
+        "No.": 14,
+        "Downlink": "DC_48A_n261I",
+        "#DL_CC": 5,
+        "Uplink": "DC_48A_n261I",
+        "#UL_CC": 5,
+        "BW Combination Sets": [
+          0
+        ]
+      },
+      "Carriers": {
+        "Downlink": [
+          {
+            "Configuration": "48A",
+            "Parameters": [
+              []
+            ]
+          },
+          {
+            "Configuration": "n261I",
+            "Parameters": [
+              []
+            ]
+          }
+        ],
+        "Uplink": [
+          {
+            "Configuration": "48A",
+            "Parameters": [
+              []
+            ]
+          },
+          {
+            "Configuration": "n261I",
+            "Parameters": [
+              []
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "NR-CA": []
+}
